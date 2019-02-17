@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -29,7 +29,7 @@ namespace Server
     }
     public static class DBEngine
     {
-        public static string dbPath= "./DB.json";
+        public static string dbPath = "./DB.json";
         public static Dictionary<string, string> DB = new Dictionary<string, string>();
         public static void DBInit()
         {
@@ -39,8 +39,10 @@ namespace Server
             if (File.Exists(dbPath))
             {
                 var data = File.ReadAllText(dbPath);
-                if (!data.Equals("")){
-                    DB = JsonConvert.DeserializeObject<Dictionary<string, string>>(data); }
+                if (!data.Equals(""))
+                {
+                    DB = JsonConvert.DeserializeObject<Dictionary<string, string>>(data);
+                }
             }
         }
         private static void PreserveDB()
@@ -65,5 +67,5 @@ namespace Server
             DB.Add(tokenToAdd, dataToAdd);
             PreserveDB();
         }
-    } 
+    }
 }

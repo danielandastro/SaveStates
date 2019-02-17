@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMono", "ServerMono\ServerMono.csproj", "{FD40FAB4-16D9-4AD9-85A9-6058D9B36FF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{541B5A63-4C75-49B1-B7FB-D438FD837E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savestates_Client_Test", "Savestates_Client_Test\Savestates_Client_Test.csproj", "{64235767-B004-47E9-A45C-94EA03EA7AA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{FD40FAB4-16D9-4AD9-85A9-6058D9B36FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD40FAB4-16D9-4AD9-85A9-6058D9B36FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD40FAB4-16D9-4AD9-85A9-6058D9B36FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541B5A63-4C75-49B1-B7FB-D438FD837E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541B5A63-4C75-49B1-B7FB-D438FD837E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541B5A63-4C75-49B1-B7FB-D438FD837E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541B5A63-4C75-49B1-B7FB-D438FD837E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64235767-B004-47E9-A45C-94EA03EA7AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64235767-B004-47E9-A45C-94EA03EA7AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64235767-B004-47E9-A45C-94EA03EA7AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64235767-B004-47E9-A45C-94EA03EA7AA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
